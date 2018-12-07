@@ -1,4 +1,4 @@
-# BroadCast Bot| * Discord *
+# BroadCast Bot| - Discord 
 `message for all members`
 `message for online members`
 `command {invite} to invite the bot`
