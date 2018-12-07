@@ -168,9 +168,10 @@ client.on("message", async message => {
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
 });
+client.on('guildMemberAdd', member=> {
+    member.addRole(member.guild.roles.find("name","Member"));
+    });
 
-// DONE BY MOORZ .
-// CODES - COPYRIGHT
 
 
 client.login("NTE3NzQ2OTQ1MTYzMzk1MDc0.Duxc_w.Tn_XoJuTcKKBm3m_Lc5Re95CB2k");
