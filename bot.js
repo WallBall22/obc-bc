@@ -162,9 +162,9 @@ client.on("message", async message => {
             دعوة البوت لسيرفرك : ${prefix}invite
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}obc
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
+            يعرض لك عدد المتبندين من سيرفرك : banned
             رابط سيرفر الدعم الفني : https://discord.gg/YEXcDXt 
-            **`);
+             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
 });
