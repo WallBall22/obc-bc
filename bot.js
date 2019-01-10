@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "r!";
+const prefix = "^";
 
 // ========================================== [ CONSTRUCTERS ] =========================================
 
@@ -324,4 +324,4 @@ client.on('message', async message => {
 });
 
 
-client.login("NTIwNTE3NzM5NDU5Mzc5MjAw.Du0Nsw._lGBJERdhzslXQo3No79LLFr1f4");
+client.login("NTMyODU4Mzc1NjY3NzEyMDIx.Dximsg.iINuVSEoarRMCD6BEgKIeYbcX7k");
